@@ -1,10 +1,33 @@
 ---
 title: "Följ resan och förberedelser"
+
+echo: false
 ---
+
+```{r}
+library(ggplot2)
+library(paletteer)
+```
+
+<iframe width="300" height="154" src="https://w2.countingdownto.com/5849441" frameborder="0"></iframe>
+
 
 På denna sida kommer vi löpande informera om hur det går med förberedelserna inför resan.
 
-
-
-
 ![](img/Koritsia och Cantarsis Vocalis.jpg)
+
+
+```{r}
+
+df <- data.frame(vad = c("Social fond","Bussresa & boende i Århus","Gemensamma aktiviteter under körfestivalen"), insamlade_medel = c(500, 300, 1000))
+
+ggplot2::ggplot(df,aes(y = vad, x = insamlade_medel, fill = vad)) +
+  scale_fill_paletteer_d("nbapalettes::warriors") +
+  geom_col() +
+  theme_minimal() +
+  theme(legend.position="none") +
+  ylab("") +
+  xlab("Insamlade medel SEK")
+```
+
+

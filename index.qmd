@@ -2,15 +2,18 @@
 title: "Sponsra körungdomar i Koritsia och Cantarsis Vocalis!"
 ---
 
-![](img/Bild2 KIA och CV.jpeg)
 
+:::{.column-page}
 ![](img/koritsia-sv.jpg)
-
-
+:::
 
 Sommaren 2025 är förhoppningen att Koritsia och Cantarsis Vocalis ska göra en gemensam resa till danska Århus för att delta i en körtävlingen European Choir Games. För att kunna delta är det många kostnader som behöver betalas och körerna hoppas på olika sätt hitta finansiering så att resan kan genomföras. Vi söker inte en sponsor som skall hjälpa oss med allt, utan hoppas att alla som har möjlighet försöker bidra. Målsättningen är att varje körmedlem själv ska betala max 2500 kr för att följa med på resan.
 
 > Direksponsring innebär att man sponsrar direkt utan att köpa något.
+
+:::{.column-page}
+![](img/Bild2%20KIA%20och%20CV.jpeg){scale="0.5"}
+:::
 
 ## Social fond
 
@@ -26,18 +29,34 @@ Här finns utrymme både före och under resan att göra något extra för köre
 
 Om vi får stöd i form av pengar som inte är öronmärkta fördelas de enligt följande ordning:
 
-1. Sociala fonden skall fyllas med minst 10 000 kr
+1.  Sociala fonden skall fyllas med minst 10 000 kr
 
-2. Bussresans kostnad skall täckas
+2.  Bussresans kostnad skall täckas
 
-- Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och boendekostnader för Århusresan.
+-   Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och boendekostnader för Århusresan.
 
 Hälsningar
 
 Sponsorgruppen föräldraföreningen Koritsia
 
-Följ resan, uppladdning och redovisning av inkomna medel [gå hit](live.qmd)
+Följ resan, uppladdning och redovisning av inkomna medel [Gå hit](live.qmd)
 
-![](img/kultlog.jpg)
+:::: {.columns}
 
-![](img/lundlog.jpg)
+::: {.column width="45%"}
+
+![](img/kultlog.jpg){scale="0.5"}
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+![](img/lundlog.jpg){scale="0.5"}
+:::
+
+::::
+
+
