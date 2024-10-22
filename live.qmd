@@ -14,6 +14,10 @@ library(paletteer)
 
 På denna sida kommer vi löpande informera om hur det går med förberedelserna inför resan.
 
+```{r}
+cols <- paletteer_d("nbapalettes::warriors")
+```
+
 
 
 ```{r}
@@ -22,11 +26,13 @@ df <- data.frame(vad = c("Social fond","Bussresa & boende i Århus","Gemensamma 
 
 ggplot2::ggplot(df,aes(y = vad, x = insamlade_medel, fill = vad)) +
   scale_fill_paletteer_d("nbapalettes::warriors") +
+  geom_vline(xintercept = 10000, col = cols[3])+
   geom_col() +
   theme_minimal() +
   theme(legend.position="none") +
   ylab("") +
-  xlab("Insamlade medel SEK")
+  xlab("SEK") +
+  ggtitle(paste("Insamlade medel",Sys.Date()))
 ```
 # TACK 
 
