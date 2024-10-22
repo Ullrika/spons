@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -142,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="social-fond" class="level2">
 <h2 class="anchored" data-anchor-id="social-fond">Social fond</h2>
-<p>Det finns körsångare som har svårt att betala den delen av körresan som faller på enskilda sångare. Vi vill förstås inte tappa sångare på resan av ekonomiska skäl och söker därför minst 10 000 kr till en social fond som skall användas vid behov. Körledarna administrerar denna fond.</p>
+<p>Det finns körsångare som har svårt att betala den delen av körresan som faller på enskilda sångare. Vi vill förstås inte tappa sångare på resan av ekonomiska skäl och söker därför minst 10 000 kr till en social fond som skall användas vid behov. Körledaren administrerar denna fond.</p>
 </section>
 <section id="bussresa-boende-i-århus" class="level2">
 <h2 class="anchored" data-anchor-id="bussresa-boende-i-århus">Bussresa &amp; boende i Århus</h2>
@@ -154,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Om vi får stöd i form av pengar som inte är öronmärkta fördelas de enligt följande ordning:</p>
 <ol type="1">
 <li><p>Sociala fonden skall fyllas med minst 10 000 kr</p></li>
-<li><p>Bussresans kostnad skall täckas</p></li>
+<li><p>Bussresans kostnad på skall täckas</p></li>
+<li><p>En <span class="math inline">\(\frac{1}{4}\)</span>-e del av boendekostnaden ska täckes</p></li>
 </ol>
-<ul>
-<li>Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och boendekostnader för Århusresan.</li>
-</ul>
+<p>Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och övriga boendekostnader för Århusresan.</p>
 <p><em>Hälsningar</em></p>
 <p><em>Sponsorgruppen föräldraföreningen Koritsia</em></p>
+<p>Kontakt: Jonas Ingvar</p>
 <p>Följ resan, uppladdning och redovisning av inkomna medel <a href="./live.html">Gå hit</a></p>
 <div class="columns">
 <div class="column" style="width:45%;">

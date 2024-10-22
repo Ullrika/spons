@@ -17,7 +17,7 @@ Sommaren 2025 är förhoppningen att Koritsia och Cantarsis Vocalis ska göra en
 
 ## Social fond
 
-Det finns körsångare som har svårt att betala den delen av körresan som faller på enskilda sångare. Vi vill förstås inte tappa sångare på resan av ekonomiska skäl och söker därför minst 10 000 kr till en social fond som skall användas vid behov. Körledarna administrerar denna fond.
+Det finns körsångare som har svårt att betala den delen av körresan som faller på enskilda sångare. Vi vill förstås inte tappa sångare på resan av ekonomiska skäl och söker därför minst 10 000 kr till en social fond som skall användas vid behov. Körledaren administrerar denna fond.
 
 ## Bussresa & boende i Århus
 
@@ -31,13 +31,17 @@ Om vi får stöd i form av pengar som inte är öronmärkta fördelas de enligt 
 
 1.  Sociala fonden skall fyllas med minst 10 000 kr
 
-2.  Bussresans kostnad skall täckas
+2.  Bussresans kostnad på skall täckas
 
--   Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och boendekostnader för Århusresan.
+3. En $\frac{1}{4}$-e del av boendekostnaden ska täckes
+
+Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och övriga boendekostnader för Århusresan.
 
 *Hälsningar*
 
 *Sponsorgruppen föräldraföreningen Koritsia*
+
+Kontakt: Jonas Ingvar
 
 Följ resan, uppladdning och redovisning av inkomna medel [Gå hit](live.qmd)
 

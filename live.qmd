@@ -27,6 +27,7 @@ df <- data.frame(vad = c("Social fond","Bussresa & boende i Århus","Gemensamma 
 ggplot2::ggplot(df,aes(y = vad, x = insamlade_medel, fill = vad)) +
   scale_fill_paletteer_d("nbapalettes::warriors") +
   geom_vline(xintercept = 10000, col = cols[3])+
+  geom_vline(xintercept = 55000, col = cols[1])+
   geom_col() +
   theme_minimal() +
   theme(legend.position="none") +
