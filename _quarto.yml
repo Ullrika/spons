@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Direktsponsra körungdomar i Koritsia och Cantarsis Vocalis!"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Direktsponsring
+      - href: live.qmd
+        text: Följ resan och förberedelser
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
