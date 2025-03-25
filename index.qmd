@@ -14,7 +14,7 @@ Sommaren 2025 är förhoppningen att Koritsia och Cantarsis Vocalis ska göra en
 
 Du kan via QR-koden nedan göra ett bidrag via swish. Märk betalningen med ”Århus 2025”.
 
-![](img/koritsia.qr.liten.jpg)
+![](img/koritsia.qr.liten.jpg){width=50%}
 
 ::: column-page
 ![](img/Bild2%20KIA%20och%20CV.jpeg){scale="0.5"}
