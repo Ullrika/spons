@@ -92,10 +92,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Direktsponsring</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./live.html" aria-current="page"> 
-<span class="menu-text">Följ resan och förberedelser</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -133,15 +129,23 @@ ul.task-list li input[type="checkbox"] {
 <iframe width="300" height="154" src="https://w2.countingdownto.com/5849441" frameborder="0">
 </iframe>
 <p>På denna sida kommer vi löpande informera om hur det går med förberedelserna inför resan.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="live_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<!-- ```{r} -->
+<!-- medel = c(200,400,100) -->
+<!-- target = c(10000,55000,3000) -->
+<!-- df <- data.frame(vad = rep(c("Social fond","Bussresa & boende \n i Århus","Gemensamma aktiviteter \n under körfestivalen"),2), insamlade_medel = c(medel,target-medel), target = rep(target,2), group = rep(c("in","mål"),each = 3)) -->
+<!-- ggplot2::ggplot(df,aes(x = vad, y = insamlade_medel, fill = vad*group)) + -->
+<!--   #scale_fill_paletteer_d("nbapalettes::warriors") + -->
+<!--   #scale_colour_paletteer_d("nbapalettes::warriors") + -->
+<!--   geom_vline(aes(xintercept = target), col = "#a12405", linewidth = 2) + -->
+<!--   geom_bar(position = "stack",stat="identity") + -->
+<!--   theme_minimal() + -->
+<!--   theme(legend.position="none") + -->
+<!--   #facet_wrap(~vad,nrow = 3, scale = "free", strip.position = "left") + -->
+<!--   ylab("") + -->
+<!--   xlab("SEK") + -->
+<!--   ggtitle(paste("Insamlade medel",Sys.Date()))  -->
+<!-- #  coord_polar()  -->
+<!-- ``` -->
 <section id="tack" class="level1">
 <h1>TACK</h1>
 <p><img src="img/Koritsia och Cantarsis Vocalis.jpg" class="img-fluid"></p>

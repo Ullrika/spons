@@ -2,8 +2,7 @@
 title: "Sponsra körungdomar i Koritsia och Cantarsis Vocalis!"
 ---
 
-
-:::{.column-page}
+::: column-page
 ![](img/koritsia-sv.jpg)
 :::
 
@@ -11,7 +10,13 @@ Sommaren 2025 är förhoppningen att Koritsia och Cantarsis Vocalis ska göra en
 
 > Direksponsring innebär att man sponsrar direkt utan att köpa något.
 
-:::{.column-page}
+## Sponsra
+
+Du kan via QR-koden nedan göra ett bidrag via swish. Märk betalningen med ”Århus 2025”.
+
+![](img/koritsia.qr.liten.jpg)
+
+::: column-page
 ![](img/Bild2%20KIA%20och%20CV.jpeg){scale="0.5"}
 :::
 
@@ -33,7 +38,7 @@ Om vi får stöd i form av pengar som inte är öronmärkta fördelas de enligt 
 
 2.  Bussresans kostnad på skall täckas
 
-3. En $\frac{1}{4}$-e del av boendekostnaden ska täckes
+3.  En $\frac{1}{4}$-e del av boendekostnaden ska täckes
 
 Övriga insamlade ej öronmärkta medel går till deltagaravgift samt mat- och övriga boendekostnader för Århusresan.
 
@@ -43,12 +48,10 @@ Om vi får stöd i form av pengar som inte är öronmärkta fördelas de enligt 
 
 Kontakt: Jonas Ingvar
 
-Följ resan, uppladdning och redovisning av inkomna medel [Gå hit](live.qmd)
+<!-- Följ resan, uppladdning och redovisning av inkomna medel [Gå hit](live.qmd) -->
 
-:::: {.columns}
-
+:::::: columns
 ::: {.column width="45%"}
-
 ![](img/kultlog.jpg){scale="0.5"}
 :::
 
@@ -57,10 +60,6 @@ Följ resan, uppladdning och redovisning av inkomna medel [Gå hit](live.qmd)
 :::
 
 ::: {.column width="45%"}
-
 ![](img/lundlog.jpg){scale="0.5"}
 :::
-
-::::
-
-
+::::::

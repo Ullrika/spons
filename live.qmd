@@ -9,8 +9,9 @@ library(ggplot2)
 library(paletteer)
 ```
 
-<iframe width="300" height="154" src="https://w2.countingdownto.com/5849441" frameborder="0"></iframe>
+<iframe width="300" height="154" src="https://w2.countingdownto.com/5849441" frameborder="0">
 
+</iframe>
 
 På denna sida kommer vi löpande informera om hur det går med förberedelserna inför resan.
 
@@ -18,24 +19,26 @@ På denna sida kommer vi löpande informera om hur det går med förberedelserna
 cols <- paletteer_d("nbapalettes::warriors")
 ```
 
+<!-- ```{r} -->
 
+<!-- medel = c(200,400,100) -->
+<!-- target = c(10000,55000,3000) -->
+<!-- df <- data.frame(vad = rep(c("Social fond","Bussresa & boende \n i Århus","Gemensamma aktiviteter \n under körfestivalen"),2), insamlade_medel = c(medel,target-medel), target = rep(target,2), group = rep(c("in","mål"),each = 3)) -->
 
-```{r}
+<!-- ggplot2::ggplot(df,aes(x = vad, y = insamlade_medel, fill = vad*group)) + -->
+<!--   #scale_fill_paletteer_d("nbapalettes::warriors") + -->
+<!--   #scale_colour_paletteer_d("nbapalettes::warriors") + -->
+<!--   geom_vline(aes(xintercept = target), col = "#a12405", linewidth = 2) + -->
+<!--   geom_bar(position = "stack",stat="identity") + -->
+<!--   theme_minimal() + -->
+<!--   theme(legend.position="none") + -->
+<!--   #facet_wrap(~vad,nrow = 3, scale = "free", strip.position = "left") + -->
+<!--   ylab("") + -->
+<!--   xlab("SEK") + -->
+<!--   ggtitle(paste("Insamlade medel",Sys.Date()))  -->
+<!-- #  coord_polar()  -->
+<!-- ``` -->
 
-df <- data.frame(vad = c("Social fond","Bussresa & boende i Århus","Gemensamma aktiviteter under körfestivalen"), insamlade_medel = c(500, 300, 1000))
+# TACK
 
-ggplot2::ggplot(df,aes(y = vad, x = insamlade_medel, fill = vad)) +
-  scale_fill_paletteer_d("nbapalettes::warriors") +
-  geom_vline(xintercept = 10000, col = cols[3])+
-  geom_vline(xintercept = 55000, col = cols[1])+
-  geom_col() +
-  theme_minimal() +
-  theme(legend.position="none") +
-  ylab("") +
-  xlab("SEK") +
-  ggtitle(paste("Insamlade medel",Sys.Date()))
-```
-# TACK 
-
-![](img/Koritsia och Cantarsis Vocalis.jpg)
-
+![](img/Koritsia%20och%20Cantarsis%20Vocalis.jpg)

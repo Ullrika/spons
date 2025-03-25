@@ -8,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Direktsponsring
-      - href: live.qmd
-        text: Följ resan och förberedelser
+      # - href: live.qmd
+      #   text: Följ resan och förberedelser
 
 format:
   html:
